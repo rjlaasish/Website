@@ -1,0 +1,111 @@
+body{
+	font-family:Arial,Helvetica,sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container{
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+}
+.button_1{
+	height:38px;
+	background:#e8491d;
+	border: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #ffffff;
+}
+header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top:30px;
+	min-height: 70px;
+	border-bottom:#e8491d 3px solid;  
+}
+
+header a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 0;
+}
+heading #branding{
+	float:left;
+
+}
+header #branding h1{
+margin:0;
+}
+header nav{
+	float: right;
+	margin-bottom: 10px;
+
+}
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover{
+	color:#cccccc;
+	font-style: italic;
+	font-weight: bold;
+}
+#show_case{
+	min-height: 450px;
+	background: url('../img/middle.jpg') no-repeat 0 -300px;
+	text-align: center;
+	color: #ffffff;
+}
+	#show_case h1{
+		margin-top: 150px;
+		font-size: 55px;
+		
+	}
+#feedback{
+ padding: 0px;
+color: #ffffff;
+background: #35424a;
+}
+#feedback h1{
+	float: left;
+}
+#feedback form{
+	float: right;
+	margin-top: 25px;
+}
+#feedback input[type="email"]{
+	padding:4px;
+	height: 25px;
+	width: 250px;
+}
+#boxes{
+	margin-top: 100px;
+}
+#boxes .box{
+	float: left;
+	width=30%;
+	
+	}
+	footer{
+		padding:1px;
+		margin-top: 5px;
+		text-align: right;
+		font-weight: bold;
+		font-size: 16px;
+		font-style: italic;
+		color: #ffffff;
+		background-color:#e8491d;
+	}
